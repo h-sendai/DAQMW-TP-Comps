@@ -1,0 +1,12 @@
+.depend
+*.o
+*.d
+*~
+autogen
+SourceComp
+SinkComp
+omninames*
+rtc.conf
+.confFilePath
+decode-latency
+log*
