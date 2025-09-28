@@ -299,7 +299,8 @@ int Sink::daq_run()
     //  usleep(400);
     //}
 
-    unsigned long used_buffer_len = m_InPort.getUsedBufferLen();
+    // need patch to InPort.h
+    // unsigned long used_buffer_len = m_InPort.getUsedBufferLen();
 
     int event_byte_size = 0;
     bool ret = m_InPort.read();
