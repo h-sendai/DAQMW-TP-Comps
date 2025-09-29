@@ -49,3 +49,12 @@ echo
 
 echo "===> cpuf"
 cpuf
+echo
+
+echo "===> OpenRTM-aist"
+rpm -q OpenRTM-aist
+echo
+
+echo "===> DAQ-Middleware"
+cat /usr/share/daqmw/docs/VERSION
+echo
