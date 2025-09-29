@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+for i in 1 2 4 8 16 32 64 128 256 512 1024 2048 4096; do
+    echo -n "$i "
+    grep transfer_rate run.$i | cavr -s 2
+done
