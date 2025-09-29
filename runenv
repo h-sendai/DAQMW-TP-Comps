@@ -51,6 +51,10 @@ echo "===> cpuf"
 cpuf
 echo
 
+echo "===> omniORB"
+rpm -q omniORB
+echo
+
 echo "===> OpenRTM-aist"
 rpm -q OpenRTM-aist
 echo
